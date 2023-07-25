@@ -35,7 +35,7 @@ resource "ibm_function_action" "nodefunc" {
 
   exec {
     kind = "nodejs:16"
-    code = file("./src/index.js")
+    code = file("../src/index.js")
   }
 }
 
